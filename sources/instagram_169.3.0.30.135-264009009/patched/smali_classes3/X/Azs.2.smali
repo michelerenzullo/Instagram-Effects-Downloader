@@ -64,7 +64,7 @@
     const-string v2, "Please retry!"
     :goto_0
     const/4 v1, 0x0
-    invoke-static {v3, v2, v1}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
+    invoke-static {v3, v2, v1}, LX/2hq;->A01(Landroid/content/Context;Ljava/lang/CharSequence;I)LX/2hq;
 	move-result-object v0
     invoke-virtual {v0}, Landroid/widget/Toast;->show()V
     :cond_0

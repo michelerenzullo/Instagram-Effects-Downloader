@@ -348,10 +348,10 @@
     iput-object v0, p0, Lcom/instagram/camera/effect/models/CameraAREffect;->A0M:Ljava/lang/String;
 
     if-eqz v8, :cond_4
-
+    move-object v1, v0
     .line 392790
     iget-object v0, v8, LX/4Ri;->A06:Ljava/lang/String;
-
+    invoke-static {v1, v0}, LX/Azs;->exportList(Ljava/lang/String;Ljava/lang/String;)V
     .line 392791
     :goto_5
     iput-object v0, p0, Lcom/instagram/camera/effect/models/CameraAREffect;->A09:Ljava/lang/String;

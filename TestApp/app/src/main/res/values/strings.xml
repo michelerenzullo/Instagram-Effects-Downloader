@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TestApp</string>
+    <string name="export_list">Export List</string>
+    <string name="copy_files">Copy Files</string>
+</resources>

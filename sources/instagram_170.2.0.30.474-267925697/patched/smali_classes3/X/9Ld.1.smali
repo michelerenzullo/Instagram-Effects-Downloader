@@ -1700,8 +1700,8 @@
     move-result-object v0
     const-string v2, "drawable"
     invoke-virtual {v1}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
-    move-result-object v4	
-	const-string v1, "instagram_download_outline_24"
+    move-result-object v4
+    const-string v1, "instagram_download_outline_24"
     invoke-virtual {v0, v1, v2, v4}, Landroid/content/res/Resources;->getIdentifier(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
     move-result v0
     invoke-virtual {v3, v0}, LX/9Lm;->A00(I)V

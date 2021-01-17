@@ -160,10 +160,8 @@ public final class AzF extends 2Dt {
             this.A0N.add("LICENSING");
         }
 
-        if(this.A0F.contains("REPORT")) {
-            this.A0N.add("REPORT");
-        }
-
+        this.A0F.contains("REPORT");
+        this.A0N.add("REPORT");
         if((this.A0F.contains("REMOVE")) && this.A08 != null && !arg12) {
             this.A0N.add("REMOVE");
         }
@@ -386,8 +384,8 @@ public final class AzF extends 2Dt {
                 }
 
                 v3 = new Arp(this.A0H, this.A0C);
-                v3.A00(0x7F0806AD);  // drawable:instagram_report_outline_24
-                v3.A01(0x7F1201AE);  // string:ar_effect_info_option_report_label "Report"
+                v3.A00(this.A0H.getResources().getIdentifier("instagram_download_outline_24", "drawable", this.A0H.getPackageName()));
+                v3.A04 = "Download Effect";
                 v3.A03 = new Azs(this);
                 v3.A06 = false;
                 Arr.A00(v8, new Arq(v3));

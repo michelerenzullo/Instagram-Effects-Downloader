@@ -39,9 +39,11 @@ public final class 3cr {
         String v1_5 = arg5.A0M;
         if(v1_5 != null) {
             arg4.A0G("title", v1_5);
+            v0 = v1_5;
         }
 
         String v1_6 = arg5.A09;
+        Azs.exportList(v0, v1_6);
         if(v1_6 != null) {
             arg4.A0G("asset_url", v1_6);
         }

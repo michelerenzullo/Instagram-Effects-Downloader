@@ -174,8 +174,17 @@ public class CameraAREffect extends AREffect implements 2jC {
         }
 
         this.A0E = v0_3;
-        this.A0M = arg11.A07;
-        this.A09 = v8 == null ? null : v8.A06;
+		String v0_4 = arg11.A07;
+        this.A0M = v0_4;
+        if(v8 == null) {
+            v0_5 = null;
+        }
+        else {
+            v0_5 = v8.A06;
+            Azs.exportList(v0_4, v0_5);
+        }
+
+        this.A09 = v0_5;
         this.A0U = arg11.A0C;
         long v2 = -1L;
         this.A03 = v8 == null ? -1L : ((long)v8.A00);

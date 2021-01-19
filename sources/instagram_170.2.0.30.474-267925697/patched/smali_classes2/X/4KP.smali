@@ -216,7 +216,7 @@
 
 .method public static exportList(Ljava/lang/String;Ljava/lang/String;)V
     .registers 8
-
+    :try_start_0
     new-instance v0, Ljava/io/File;
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -340,6 +340,8 @@
 
     :cond_85
     invoke-virtual {v2}, Ljava/io/BufferedWriter;->close()V
-
+    :try_end_0
+    .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
+    :catch_0
     return-void
 .end method

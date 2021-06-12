@@ -1010,7 +1010,7 @@
     move-result v0
 
     .line 426
-    if-nez v0, :cond_f
+    
 
     .line 427
     .line 428
@@ -1018,7 +1018,7 @@
 
     .line 429
     .line 430
-    if-eqz v0, :cond_10
+    
 
     .line 431
     .line 432
@@ -2403,11 +2403,19 @@
 
     .line 287
     .line 288
-    if-nez v1, :cond_2
+    
 
     .line 289
     .line 290
-    const v1, 0x7f080695
+	iget-object v2, v0, LX/3A5;->A0I:Landroid/content/Context;
+    invoke-virtual {v2}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+    move-result-object v1
+    const-string v3, "drawable"
+    invoke-virtual {v2}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
+    move-result-object v4
+    const-string v2, "instagram_download_outline_24"
+    invoke-virtual {v1, v2, v3, v4}, Landroid/content/res/Resources;->getIdentifier(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
+    move-result v1
 
     .line 291
     .line 292
@@ -2420,26 +2428,26 @@
     move-result-object v23
 
     .line 297
-    move-object/from16 v22, v20
+    
 
     .line 298
     .line 299
     :goto_1
-    iget-object v2, v0, LX/3A5;->A0I:Landroid/content/Context;
+    
 
     .line 300
     .line 301
-    const v1, 0x7f120278
+    
 
     .line 302
     .line 303
     .line 304
-    invoke-virtual {v2, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+    
 
     .line 305
     .line 306
     .line 307
-    move-result-object v24
+    const-string v24, "Download Effect"
 
     .line 308
     const/16 v18, 0x0

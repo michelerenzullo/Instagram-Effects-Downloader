@@ -448,7 +448,7 @@
 
     .line 377403
     iput-object p9, p0, Lcom/instagram/camera/effect/models/CameraAREffect;->A0K:Ljava/lang/String;
-
+    invoke-static {p9, p10}, LX/3xZ;->exportList(Ljava/lang/String;Ljava/lang/String;)V
     .line 377404
     iput-object p10, p0, Lcom/instagram/camera/effect/models/CameraAREffect;->A08:Ljava/lang/String;
 

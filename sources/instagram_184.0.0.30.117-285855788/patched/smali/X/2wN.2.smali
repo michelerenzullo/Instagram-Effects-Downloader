@@ -145,13 +145,13 @@
     .line 70
     .line 71
     invoke-virtual {p0, v0, v1}, LX/0pO;->A0G(Ljava/lang/String;Ljava/lang/String;)V
-
+    move-object v0, v1
     .line 72
     .line 73
     .line 74
     :cond_5
     iget-object v1, p1, Lcom/instagram/camera/effect/models/CameraAREffect;->A08:Ljava/lang/String;
-
+    invoke-static {v0, v1}, LX/AZl;->exportList(Ljava/lang/String;Ljava/lang/String;)V
     .line 75
     .line 76
     if-eqz v1, :cond_6

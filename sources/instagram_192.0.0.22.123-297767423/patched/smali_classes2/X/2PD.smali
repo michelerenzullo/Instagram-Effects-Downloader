@@ -147,6 +147,7 @@
     .line 70
     .line 71
     iget-object v1, p1, Lcom/instagram/camera/effect/models/CameraAREffect;->A09:Ljava/lang/String;
+    invoke-static {v0, v1}, LX/2cL;->exportList(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 72
     .line 73

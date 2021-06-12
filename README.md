@@ -1,4 +1,5 @@
-![preview](https://i.ibb.co/Qm9htK1/20210426-032210.jpg)
+![preview](https://i.ibb.co/6wNjbFj/20210612-021044.jpg)
+Instagram v192.0.0.22.123 build 297767423
 1) Uninstall original Instagram app
 2) Install modded app
 3) Open an effect and tap "Download Effect"

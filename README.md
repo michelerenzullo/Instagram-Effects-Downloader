@@ -1,5 +1,5 @@
 # Instagram Effects Downloader
-Download spark ar effects and extract all arfx links from Instagram on Android - Last version on Gumroad https://jfb.gumroad.com/l/instaeffects **v198.0.0.32.120 build 307053294**, old version here for free **v192.0.0.22.123 build 297767423**
+Download spark ar effects and extract all arfx links from Instagram on Android - Last version on Gumroad https://jfb.gumroad.com/l/instaeffects **v258.1.0.26.100 build 365805540**, old version here for free **v192.0.0.22.123 build 297767423**
 
 
 ![preview](https://i.ibb.co/6wNjbFj/20210612-021044.jpg)  
